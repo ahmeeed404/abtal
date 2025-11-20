@@ -7,13 +7,17 @@ nav{
     /* background-color: aqua; */
     height: 10vh;
     
+    
+}
+.navbar, .bttn{
+    font-size: 18px;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px ;
+    padding: 70px ;
 }
 .navbar a{
     text-decoration: none;
@@ -26,13 +30,13 @@ nav{
 }
 .links{
    display: flex;
-   column-gap: 20px;
+   column-gap: 25px;
 }
 
 button{
     color: red;
-    height: 40px;
-    width: 100px;
+    height: 45px;
+    width: 110px;
     border: transparent;
     background-color: rgba(78, 78, 78, 0.056);
 }
