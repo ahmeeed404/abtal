@@ -113,6 +113,8 @@
 .parentt{
     height: 250px;
     padding-top: 20px;
+    padding-left: 100px;
+
 }
 .secound-input{
     padding-top: 60px;
@@ -152,4 +154,7 @@
     color: #314584;
     padding-top: 20px;
 
+}
+.a{
+    padding-left: 100px;
 }
