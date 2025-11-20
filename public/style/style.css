@@ -125,3 +125,38 @@ footer a {
     color: white;
     column-gap: 30px;
 }
+
+#check{
+    display: none;
+
+}
+.fa-bars{
+    display: none;
+}
+.fa-x{
+    display: none;
+}
+
+@media (max-width: 425px){
+    body{
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .links{
+        display: none;
+    }
+    nav .bttn{
+        display: none;
+    }
+    .sec03{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-icon{
+        width: 20vw;
+        
+    }
+}
