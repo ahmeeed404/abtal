@@ -48,6 +48,8 @@ button{
     align-items: start;
     justify-content: space-around;
     margin-right: 50px;
+     color: rgb(6, 6, 95);
+     
 }
 .titre{
     display: flex;
@@ -56,11 +58,13 @@ button{
     
 }
 .titre h2{
-    color: rgb(1, 1, 56);
+    color: rgb(6, 6, 95);
+    font-size: xx-large;
 }
 
 .secBttn{
     background-color: red;
+    box-shadow: 4px 4px 4px red;
     color: white;
     height: 30px;
     border-radius: 20px / 30px;
