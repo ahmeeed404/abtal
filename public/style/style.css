@@ -191,7 +191,7 @@ footer a {
     display: block;
 }
 #check:checked ~ .links{
-    right: 7px;
+    right: 10px;
    
 
 }
@@ -199,8 +199,11 @@ footer a {
     display: block;
 } */
 .links{
+    display: flex;
         flex-direction: column;
-        width: 50vw;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
         height: 50vh;
         justify-content: space-between;
         position: absolute;
@@ -208,6 +211,8 @@ footer a {
         right: -60vh;
         padding: 20px;
         transition: 1s; 
+        box-shadow: 5px 5px 10px aquamarine;
         background-color: aquamarine;
+        z-index: 4;
     }
 }
