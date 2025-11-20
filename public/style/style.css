@@ -17,7 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px ;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .navbar a{
     text-decoration: none;
@@ -44,7 +45,9 @@ button{
 .sec03{
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */margin-right: 50px;
+    align-items: start;
+    justify-content: space-around;
+    margin-right: 50px;
 }
 .titre{
     display: flex;
