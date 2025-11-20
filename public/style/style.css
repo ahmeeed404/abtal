@@ -4,9 +4,35 @@
     box-sizing: border-box;
 }
 nav{
-    background-color: aqua;
+    /* background-color: aqua; */
+    height: 10vh;
+    
 }
 
 .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px ;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(1, 1, 57);
     
+
+}
+.navbar a:hover{
+    color: red;
+}
+.links{
+   display: flex;
+   column-gap: 20px;
+}
+
+button{
+    color: red;
+    height: 40px;
+    width: 100px;
+    border: transparent;
+    background-color: rgba(78, 78, 78, 0.056);
 }
