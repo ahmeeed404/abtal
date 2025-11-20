@@ -1,40 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     /* background-color: aqua; */
     height: 10vh;
     
-    
+
+
 }
-bodysi{
+
+bodysi {
     font-size: 18px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: rgb(1, 1, 57);
-    
+
 
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: red;
 }
-.links{
-   display: flex;
-   column-gap: 25px;
+
+.links {
+    display: flex;
+    column-gap: 25px;
 }
 
-button{
+button {
     color: red;
     height: 45px;
     width: 110px;
@@ -44,27 +50,29 @@ button{
 
 
 
-.sec03{
+.sec03 {
     display: flex;
     justify-content: space-between;
     align-items: start;
     justify-content: space-around;
     margin-right: 50px;
-     color: rgb(6, 6, 95);
-     
+    color: rgb(6, 6, 95);
+
 }
-.titre{
+
+.titre {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    
+
 }
-.titre h2{
+
+.titre h2 {
     color: rgb(6, 6, 95);
     font-size: xx-large;
 }
 
-.secBttn{
+.secBttn {
     background-color: red;
     box-shadow: 4px 4px 4px red;
     color: white;
@@ -72,7 +80,8 @@ button{
     border-radius: 20px / 30px;
 }
 
-.first-icon, .sec-icon{
+.first-icon,
+.sec-icon {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -88,23 +97,27 @@ button{
 
 }
 
- i{
-font-size: 30px;
+i {
+    font-size: 30px;
 }
-footer{
+
+footer {
     background-color: rgb(38, 6, 68);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     color: white;
+    color: white;
     row-gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-footer h2{
+
+footer h2 {
     color: red;
 }
 
-footer a{
+footer a {
     color: white;
     column-gap: 30px;
 }
