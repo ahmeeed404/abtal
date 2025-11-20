@@ -158,3 +158,81 @@
 .a{
     padding-left: 100px;
 }
+@media(max-width:425px){
+    .first-section{
+        width: 250VW;
+        height: 200vh;
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+
+
+
+    }
+    .left1{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .right1{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        position: relative;
+      
+}
+.right1 img{
+    width: 700px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+
+
+}
+.but{
+    display: flex;
+    flex-direction: column;
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.a{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 200vw;
+}
+.parentt{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+.first-input{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    justify-content: center;
+    width: 900px;
+    padding-left: 100px;
+}
+.email{
+    width: 600px;
+}
+.Subject{
+    width: 600px;
+}
+.but{
+    padding-left: 500px;
+    padding-top: 100px;
+}
+}
