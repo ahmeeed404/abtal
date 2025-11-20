@@ -91,3 +91,20 @@ button{
  i{
 font-size: 30px;
 }
+footer{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+    row-gap: 30px;
+}
+footer h2{
+    color: red;
+}
+
+footer a{
+    color: white;
+    column-gap: 30px;
+}
