@@ -79,3 +79,77 @@
 .left-b:hover {
     background-color: aliceblue;
 }
+/* this is section 4 */
+.section-4{
+    width: 100vw;
+    height: 60vh;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.first-input{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.email{
+    width: 400px;
+    height:35px ;
+    background-color:#F4FAFE;
+    color: #31459F;
+    border: none;
+    padding-left: 10px;
+}
+.Subject{
+    width: 400px;
+    height: 35px;
+     background-color:#F4FAFE;
+    color: #31459F;
+    border: none;
+    padding-left: 10px;
+}
+.parentt{
+    height: 250px;
+    padding-top: 20px;
+}
+.secound-input{
+    padding-top: 60px;
+    width: 900px;    
+}
+.Massage{
+    width: 900px;
+    height: 100px;
+     background-color:#F4FAFE;
+    color: #31459F;
+    border: none;
+    padding-left: 50px;
+    
+}
+.but{
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+.send{
+    color: aliceblue;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #FF3946;
+    border-radius: 20px;
+}
+.send:hover{
+    background-color:#314584;
+    color: #FF3946;
+}
+.a a{
+    color: #FF3946;
+}
+.a h1{
+    color: #314584;
+    padding-top: 20px;
+
+}
