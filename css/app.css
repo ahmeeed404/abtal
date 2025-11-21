@@ -209,14 +209,22 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     width: 50vw;
+}
+.a h1{
+    width: 200px;
+}
+.a a{
+    width: 200px;
+    padding-top: 10px;
 }
 .parentt{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     width: 100vw;
+    padding: 0;
     
 }
 .first-input{
@@ -225,17 +233,24 @@
     gap: 20px;
     justify-content: center;
     width: 900px;
-    padding-left: 100px;
+    padding: 0;
+    padding-top: 20px;
 }
 .email{
-    width: 600px;
+    width: 200px;
 }
 .Subject{
-    width: 600px;
+    width: 200px;
 }
 .but{
-    padding-left: 500px;
-    padding-top: 100px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.secound-input{
+    width: 50vw;
+}
+.Massage{
+    width: 200px;
 }
 
 }
