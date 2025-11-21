@@ -147,10 +147,13 @@ footer a {
 
     nav {
         display: flex;
+        justify-content: start;
+        align-items: start;
         column-gap: 50px;
-        /* justify-content: space-between; */
+        /* justify-content: start; */
     }
     nav button{
+
         display: none;
     }
 
@@ -208,7 +211,7 @@ footer a {
         justify-content: space-between;
         position: absolute;
         top: 60vh;
-        right: -60vh;
+        right: -70vh;
         padding: 20px;
         transition: 1s; 
         box-shadow: 5px 5px 10px aquamarine;
