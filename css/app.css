@@ -160,7 +160,7 @@
 }
 @media(max-width:425px){
     .first-section{
-        width: 250VW;
+        width: 100vw;
         height: 200vh;
         padding: 0;
         display: flex;
@@ -187,7 +187,7 @@
       
 }
 .right1 img{
-    width: 700px;
+    width: 500px;
     position: absolute;
     left: 10px;
     top: 50px;
@@ -203,18 +203,28 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    width: 100vw;
 }
 .a{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding-bottom: 20px;
-    width: 200vw;
+    padding-bottom: 0;
+    width: 50vw;
+}
+.a h1{
+    width: 200px;
+}
+.a a{
+    width: 200px;
+    padding-top: 10px;
 }
 .parentt{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    width: 100vw;
+    padding: 0;
     
 }
 .first-input{
@@ -223,16 +233,24 @@
     gap: 20px;
     justify-content: center;
     width: 900px;
-    padding-left: 100px;
+    padding: 0;
+    padding-top: 20px;
 }
 .email{
-    width: 600px;
+    width: 200px;
 }
 .Subject{
-    width: 600px;
+    width: 200px;
 }
 .but{
-    padding-left: 500px;
-    padding-top: 100px;
+    padding-left: 20px;
+    padding-top: 50px;
 }
+.secound-input{
+    width: 50vw;
+}
+.Massage{
+    width: 200px;
+}
+
 }
